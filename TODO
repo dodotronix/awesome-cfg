@@ -1,0 +1,29 @@
+-- test, what you might do with wiboxes
+-- make dynamic tagging
+-- add support for more Displays !!!
+----------
+-- menu
+-- windows style
+-- notification style
+-- 
+
+EXTEND
+-- battery indicator
+-- special layout with overlapping
+-- color scheme
+
+
+FROM CODE
+--opened window list
+--create battery widget
+--sound widget
+--switcher between night mode and day mode
+
+JAK DAL
+-- pager: podpora vice monitoru, monitor se bude stale delit na stejny pocte dilku, v pripade 
+	  presahnuti daneho poctu, zalomi se a budou moc byt pouzito vicesmerove projizdeni ploch
+	  
+	  -- pak preskakovani ploch objednu
+-- panel: indikator displeju (dulezite), presouvani mezi monitory, nakreslit rozlozeni screenu
+-- indikator baterie
+-- vypis ucetnictvi (dulezite)

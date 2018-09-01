@@ -1,0 +1,7 @@
+#!/usr/bin/sh
+  Xephyr -keybd ephyr,,,,,xkblayout=dvorak -ac -screen 1440x800 -br -reset -terminate 2> /dev/null :1 &
+  DISPLAY=:1 /usr/bin/awesome -c rc.lua
+
+  #Xephyr -keybd ephyr,,,,,xkblayout=dvorak -ac -screen 1440x800 -br -reset -terminate 2> /dev/null :1 &
+  #DISPLAY=:1 /usr/bin/awesome -c backup/rc.lua.orig
+
